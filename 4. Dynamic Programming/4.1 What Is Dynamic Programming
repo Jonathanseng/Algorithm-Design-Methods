@@ -1,0 +1,1 @@
+Dynamic programming is a systematic technique in which a complex problem is decomposed recursively into smaller, overlapping subproblems for solution. Dynamic programming stores the results of the overlapping sub-problems locally using an optimization technique called memoization.
