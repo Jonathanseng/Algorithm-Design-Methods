@@ -1,0 +1,11 @@
+There are no specific data structures that are used in brute force methods in algorithm design. However, some data structures that are commonly used in algorithms in general can be used in brute force methods as well.
+
+For example, **lists** are a good choice for storing a sequence of elements. This is because lists are easy to iterate through, and they can be easily modified.
+
+**Sets** are a good choice for storing a collection of unique elements. This is because sets are efficient at storing unique elements, and they can be easily searched.
+
+**Dictionaries** are a good choice for storing a mapping between keys and values. This is because dictionaries are efficient at retrieving elements by key, and they can be easily sorted.
+
+The choice of which data structure to use depends on the specific problem being solved, and the performance requirements of the algorithm. For example, if the algorithm needs to be able to quickly iterate through a sequence of elements, then a list might be a good choice. However, if the algorithm needs to be able to quickly retrieve elements by key, then a dictionary might be a better choice.
+
+In general, brute force methods are not very efficient, and they are often not the best choice for solving problems. However, they can be used in some cases when other methods are not available or when the problem is not well-suited for other methods.
