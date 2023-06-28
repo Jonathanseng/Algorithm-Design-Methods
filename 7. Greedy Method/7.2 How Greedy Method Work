@@ -1,0 +1,19 @@
+The greedy method is an algorithmic paradigm that builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit. This can be done by either minimizing or maximizing the objective function at each step.
+
+The greedy method works by making a **locally optimal choice** at each stage in the hope of finding the **global optimum**. This means that the algorithm chooses the best possible option available at the moment, without regard for whether it will lead to the best overall solution.
+
+The greedy method is often used to solve optimization problems, where the goal is to find the best possible solution given a set of constraints. For example, the greedy method can be used to solve the following problems:
+
+* **Knapsack problem:** Given a set of items with weights and values, and a knapsack with a limited capacity, the goal is to find the subset of items that has the maximum total value and fits in the knapsack.
+* **Job scheduling problem:** Given a set of jobs with deadlines and processing times, the goal is to schedule the jobs so that all the jobs are completed by their deadlines.
+* **Huffman coding problem:** Given a set of characters and their frequencies, the goal is to find a coding scheme that minimizes the average number of bits used to encode each character.
+
+The greedy method is not always guaranteed to find the global optimum solution. However, it is often able to find good solutions to problems that would be difficult or impossible to solve using other methods.
+
+Here are some examples of how the greedy method works:
+
+* In the knapsack problem, the greedy algorithm would choose the item with the highest value per unit weight at each step. This ensures that the algorithm will always choose items that have the maximum total value, even if it does not necessarily choose the items that fit in the knapsack.
+* In the job scheduling problem, the greedy algorithm would choose the job with the earliest deadline at each step. This ensures that the algorithm will always choose jobs that can be completed by their deadlines, even if it does not necessarily choose the jobs that can be completed in the shortest amount of time.
+* In the Huffman coding problem, the greedy algorithm would choose the two characters with the lowest frequencies at each step and merge them into a new character. This ensures that the algorithm will always choose characters that are used infrequently, even if it does not necessarily choose the characters that can be encoded in the fewest bits.
+
+The greedy method is a simple and efficient algorithm that can be used to solve a variety of optimization problems. However, it is important to remember that the greedy method is not always guaranteed to find the global optimum solution.
