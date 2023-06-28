@@ -1,0 +1,14 @@
+Brute force can be built under both iteration and recursion methods. Iteration is a more general method, and it can be used to solve any problem that can be solved recursively. However, recursion can be more efficient for some problems, especially those that can be broken down into smaller subproblems.
+
+Here are some examples of how brute force can be built under iteration:
+
+* **Finding the largest number in a list of numbers:** This algorithm iterates through the list of numbers, keeping track of the largest number seen so far. The largest number is the last number in the list that is greater than or equal to all the previous numbers.
+* **Solving a Sudoku puzzle:** This algorithm iterates through the puzzle, trying all possible combinations of numbers in each cell until a solution is found.
+* **Breaking a password:** This algorithm iterates through all possible combinations of letters and numbers until the correct password is found.
+
+Here are some examples of how brute force can be built under recursion:
+
+* **Finding the longest common subsequence of two strings:** This algorithm recursively finds the longest common subsequence of the first string and the first n characters of the second string. The longest common subsequence of the two strings is the longest subsequence that is common to both strings.
+* **Sorting a list of numbers:** This algorithm recursively sorts the first n-1 elements of the list, and then recursively sorts the list with the nth element appended to it. The sorted list is the list of all the elements in the original list, sorted in ascending order.
+
+In general, brute force algorithms can be built under either iteration or recursion. The best method to use depends on the specific problem that is being solved.
