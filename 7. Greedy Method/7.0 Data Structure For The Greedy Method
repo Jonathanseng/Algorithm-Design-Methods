@@ -1,0 +1,17 @@
+Greedy algorithms are a type of algorithm that make locally optimal choices at each step in the hope of finding a globally optimal solution. They are often used to solve optimization problems, where the goal is to find the best possible solution given a set of constraints.
+
+The data structures used in greedy algorithms vary depending on the specific problem being solved. However, some common data structures include:
+
+* **Lists:** Lists are a good choice for storing a set of items where the order of the items matters. For example, a list could be used to store the items in a knapsack problem, where the items are ordered by their value per unit weight.
+* **Heaps:** Heaps are a specialized type of list that allows for efficient access to the largest or smallest item in the list. This makes them a good choice for problems where the greedy algorithm needs to repeatedly find the best item.
+* **Dictionaries:** Dictionaries are a data structure that maps keys to values. They can be used to store a set of items where the order of the items does not matter. For example, a dictionary could be used to store the jobs in a job scheduling problem, where each job is mapped to its deadline.
+
+The specific data structure used in a greedy algorithm will depend on the specific problem being solved and the implementation of the algorithm. However, the general idea is to use a data structure that allows the algorithm to make efficient decisions at each step.
+
+Here are some examples of data structures used in greedy algorithms:
+
+* In the **knapsack problem**, a list is used to store the items in the knapsack. The items are ordered by their value per unit weight, so that the greedy algorithm can always choose the item with the highest value per unit weight.
+* In the **job scheduling problem**, a dictionary is used to store the jobs. Each job is mapped to its deadline, so that the greedy algorithm can always choose the job with the earliest deadline.
+* In the **Huffman coding problem**, a heap is used to store the characters in the alphabet. The heap is ordered by the frequency of each character, so that the greedy algorithm can always choose the character with the lowest frequency.
+
+Greedy algorithms are a powerful tool for solving optimization problems. By making locally optimal choices at each step, they can often find good solutions to problems that would be difficult or impossible to solve using other methods.
