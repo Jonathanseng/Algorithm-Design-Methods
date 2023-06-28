@@ -1,0 +1,22 @@
+Dynamic programming is a technique for solving optimization problems by breaking them down into smaller subproblems, solving each subproblem once, and storing their solutions so that they can be reused and combined to solve the larger problem. The problems are solved from the smallest to the largest, allowing solutions to be reused.
+
+Dynamic programming is a powerful technique that can be used to solve a wide variety of problems, including:
+
+* **Optimal substructure:** A problem has optimal substructure if the optimal solution to the overall problem can be obtained by combining optimal solutions to its subproblems.
+* **Overlapping subproblems:** A problem has overlapping subproblems if the same subproblem is solved multiple times during the course of solving the overall problem.
+
+Dynamic programming can be implemented in a top-down or bottom-up fashion. In the top-down approach, the problem is solved recursively, and the solutions to the subproblems are stored in a table. In the bottom-up approach, the problem is solved iteratively, and the solutions to the subproblems are computed as needed.
+
+Here is an example of how dynamic programming can be used to solve the Fibonacci sequence problem. The Fibonacci sequence is a sequence of numbers where each number is the sum of the two numbers before it. The first two numbers in the sequence are 0 and 1, and the sequence continues as follows:
+
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
+
+The Fibonacci sequence can be solved using dynamic programming by breaking the problem down into the following subproblems:
+
+* **Subproblem 1:** The first Fibonacci number is 0.
+* **Subproblem 2:** The second Fibonacci number is 1.
+* **Subproblem n:** The nth Fibonacci number is the sum of the (n-1)th and (n-2)th Fibonacci numbers.
+
+The solutions to the subproblems can be stored in a table, and the Fibonacci sequence can be computed by starting at the first subproblem and working up to the nth subproblem.
+
+Dynamic programming is a powerful technique that can be used to solve a wide variety of problems. It is a bit more complex than other programming techniques, but it can be very efficient for problems that have overlapping subproblems and optimal substructure.
