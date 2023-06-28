@@ -1,0 +1,19 @@
+There are two main methods for building dynamic programming solutions:
+
+* **Top-down:** This method starts with the overall problem and recursively breaks it down into smaller subproblems. The solutions to the subproblems are stored in a table, and the overall solution is constructed by combining the solutions to the subproblems.
+* **Bottom-up:** This method starts with the smallest subproblems and works its way up to the overall problem. The solutions to the subproblems are computed as needed, and the overall solution is constructed by combining the solutions to the subproblems.
+
+The following steps are involved in building a dynamic programming solution:
+
+1. **Identify the subproblems.** The first step is to identify the subproblems that the overall problem can be broken down into. These subproblems should be such that the optimal solution to the overall problem can be obtained by combining the optimal solutions to its subproblems.
+2. **Characterize the structure of the optimal solution.** The next step is to characterize the structure of the optimal solution. This means identifying the relationships between the subproblems and how the optimal solutions to the subproblems can be combined to form the optimal solution to the overall problem.
+3. **Compute the solutions to the subproblems.** The third step is to compute the solutions to the subproblems. This can be done recursively or iteratively, depending on the method that is being used.
+4. **Construct the overall solution.** The final step is to construct the overall solution by combining the solutions to the subproblems.
+
+Here are some tips for building dynamic programming solutions:
+
+* **Use a table to store the solutions to the subproblems.** This can help to speed up the computation of the solutions to the subproblems.
+* **Use memoization to avoid recomputing the solutions to the subproblems.** Memoization is a technique that stores the solutions to the subproblems in a table so that they do not have to be recomputed when they are needed again.
+* **Start with small problems and work your way up to larger problems.** This can help you to understand the structure of the optimal solution and how the subproblems can be combined.
+
+Dynamic programming is a powerful technique that can be used to solve a wide variety of problems. However, it is important to understand the principles of dynamic programming before trying to use it to solve a problem.
