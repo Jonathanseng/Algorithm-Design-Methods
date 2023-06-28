@@ -1,0 +1,25 @@
+Divide and conquer is an algorithm design paradigm that breaks a problem into smaller subproblems of the same or related type, until these become simple enough to be solved directly. The solutions to the subproblems are then combined to solve the original problem.
+
+The divide and conquer approach has three main steps:
+
+1. **Divide:** The problem is divided into two or more subproblems of the same or related type.
+2. **Conquer:** The subproblems are solved recursively.
+3. **Combine:** The solutions to the subproblems are combined to solve the original problem.
+
+The divide and conquer approach can be used to solve a wide variety of problems, including sorting, searching, and graph problems.
+
+Here is an example of how the divide and conquer approach can be used to solve the problem of finding the maximum element in an array.
+
+1. **Divide:** The array is divided into two halves.
+2. **Conquer:** The maximum element in each half of the array is found recursively.
+3. **Combine:** The maximum of the two maximum elements is returned.
+
+The divide and conquer approach can be used to solve problems that are too large to be solved directly. By breaking the problem down into smaller subproblems, the divide and conquer approach can often solve problems much more efficiently than other approaches.
+
+Here are some other examples of problems that can be solved using the divide and conquer approach:
+
+* **Sorting:** Merge sort and quicksort are both sorting algorithms that use the divide and conquer approach.
+* **Searching:** Binary search is a search algorithm that uses the divide and conquer approach.
+* **Graph problems:** The transitive closure problem and the maximum flow problem are both graph problems that can be solved using the divide and conquer approach.
+
+The divide and conquer approach is a powerful algorithm design paradigm that can be used to solve a wide variety of problems. It is often used to solve problems that are too large to be solved directly.
