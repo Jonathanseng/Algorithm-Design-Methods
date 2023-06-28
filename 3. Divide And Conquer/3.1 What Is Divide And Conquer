@@ -1,0 +1,1 @@
+The divide and conquer technique decomposes complex problems recursively into smaller sub-problems. Each sub-problem is then solved and these partial solutions are recombined to determine the overall solution. This technique is often used for searching and sorting.
