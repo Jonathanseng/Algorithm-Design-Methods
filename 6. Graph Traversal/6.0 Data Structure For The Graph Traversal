@@ -1,0 +1,38 @@
+There are two common data structures used for graph traversal:
+
+* **Adjacency list:** An adjacency list is a data structure that represents a graph as a list of lists. Each list in the adjacency list represents the neighbors of a vertex in the graph.
+* **Adjacency matrix:** An adjacency matrix is a data structure that represents a graph as a matrix. Each element in the matrix represents the existence of an edge between two vertices in the graph.
+
+The choice of which data structure to use depends on the specific graph traversal algorithm being used. For example, the depth-first search (DFS) algorithm can be implemented using an adjacency list, while the breadth-first search (BFS) algorithm can be implemented using an adjacency matrix.
+
+Here is an example of how to implement the DFS algorithm using an adjacency list:
+
+```python
+def dfs(graph, start_vertex):
+  """Performs a depth-first search of the graph starting from the given vertex."""
+  visited = set()
+  stack = [start_vertex]
+  while stack:
+    vertex = stack.pop()
+    if vertex in visited:
+      continue
+    visited.add(vertex)
+    for neighbor in graph[vertex]:
+      stack.append(neighbor)
+```
+
+Here is an example of how to implement the BFS algorithm using an adjacency matrix:
+
+```python
+def bfs(graph, start_vertex):
+  """Performs a breadth-first search of the graph starting from the given vertex."""
+  visited = set()
+  queue = [start_vertex]
+  while queue:
+    vertex = queue.pop(0)
+    if vertex in visited:
+      continue
+    visited.add(vertex)
+    for neighbor in graph[vertex]:
+      queue.append(neighbor)
+```
