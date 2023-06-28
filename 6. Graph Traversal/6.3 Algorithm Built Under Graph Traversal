@@ -1,0 +1,9 @@
+There are many algorithms that are built under the graph traversal. Here are a few examples:
+
+* **Pathfinding:** Pathfinding is the process of finding a path between two points in a graph. It is a common problem in computer science, and it has many applications, such as navigation systems and routing algorithms.
+* **Topological sorting:** Topological sorting is the process of ordering the vertices in a graph such that for any two vertices, if there is an edge from vertex A to vertex B, then vertex A appears before vertex B in the ordering. It is used in a variety of applications, such as scheduling tasks and determining the order of events in a process.
+* **Connectivity:** Connectivity is the problem of determining whether two vertices in a graph are connected. It is a fundamental problem in graph theory, and it has many applications, such as finding the shortest path between two points in a network.
+* **Minimum spanning tree:** A minimum spanning tree is a subset of the edges in a graph that connects all of the vertices and has the minimum possible total weight. It is used in a variety of applications, such as finding the cheapest way to connect a set of cities or the shortest path through a network of roads.
+* **Maximum flow:** Maximum flow is the problem of finding the maximum amount of flow that can be sent through a network of pipes. It is used in a variety of applications, such as finding the maximum amount of water that can be pumped through a system of canals or the maximum number of cars that can pass through a traffic intersection in a given amount of time.
+
+These are just a few examples of the many algorithms that are built under the graph traversal. Graph traversal is a powerful tool that can be used to solve a wide variety of problems.
