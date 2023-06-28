@@ -1,0 +1,9 @@
+Here are some algorithms that are built under the divide and conquer paradigm:
+
+* **Merge sort:** Merge sort is a sorting algorithm that works by recursively dividing the input array in half, sorting each half, and then merging the two sorted halves back together.
+* **Quicksort:** Quicksort is another sorting algorithm that works by recursively partitioning the input array around a pivot element. The pivot element is placed in its correct position in the sorted array, and the smaller and larger elements are recursively sorted around the pivot element.
+* **Binary search:** Binary search is a search algorithm that works by recursively searching for a target element in a sorted array. The array is first divided in half, and the target element is searched for in the half that is more likely to contain the element. This process is repeated until the target element is found or the entire array has been searched.
+* **Strassen's algorithm:** Strassen's algorithm is an algorithm for multiplying two matrices. It works by recursively dividing the matrices into smaller submatrices and multiplying the submatrices together. The results of the submatrices are then combined to form the product of the original matrices.
+* **Karatsuba algorithm:** Karatsuba algorithm is another algorithm for multiplying two matrices. It works by recursively dividing the matrices into smaller submatrices and multiplying the submatrices together. The results of the submatrices are then combined to form the product of the original matrices.
+
+These are just a few examples of algorithms that are built under the divide and conquer paradigm. There are many other algorithms that use this approach, and it is a powerful tool for solving a wide variety of problems.
