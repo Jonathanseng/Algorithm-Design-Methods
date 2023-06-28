@@ -1,0 +1,23 @@
+Sure, here are some methods to build evolutionary algorithms in algorithm design using recursion and iteration:
+
+**Recursion:**
+
+* **Recursive selection:** This is a method of selecting parents for the next generation of a population of candidate solutions. The algorithm recursively selects the best parent from the current population, and then uses that parent to create a child. The child is then added to the new population.
+* **Recursive crossover:** This is a method of creating offspring from two parents. The algorithm recursively creates a child from each parent, and then combines the children to create a new offspring. The new offspring is then added to the new population.
+* **Recursive mutation:** This is a method of introducing random changes into a solution. The algorithm recursively changes a random element of the solution, and then returns the new solution.
+
+**Iteration:**
+
+* **Iterative selection:** This is a method of selecting parents for the next generation of a population of candidate solutions. The algorithm iterates through the current population, and selects the best parent for each iteration. The parents are then used to create children, and the children are added to the new population.
+* **Iterative crossover:** This is a method of creating offspring from two parents. The algorithm iterates through the current population, and creates a child from each parent. The children are then combined to create a new offspring. The new offspring is then added to the new population.
+* **Iterative mutation:** This is a method of introducing random changes into a solution. The algorithm iterates through the current population, and changes a random element of each solution. The new solutions are then returned.
+
+Both recursion and iteration can be used to build evolutionary algorithms. The choice of which method to use depends on the specific problem being solved. For example, if the problem is recursive, then recursion may be a better choice. However, if the problem is not recursive, then iteration may be a better choice.
+
+Here are some examples of how evolutionary algorithms have been built using recursion and iteration:
+
+* **The genetic algorithm (GA)** is a type of evolutionary algorithm that uses recursion to select parents, crossover, and mutation.
+* **The differential evolution (DE)** is a type of evolutionary algorithm that uses iteration to select parents, crossover, and mutation.
+* **The particle swarm optimization (PSO)** is a type of evolutionary algorithm that uses iteration to update the velocity and position of particles.
+
+These are just a few examples of how evolutionary algorithms have been built using recursion and iteration. Evolutionary algorithms are a powerful tool for finding good solutions to complex problems, and they can be used in a variety of ways.
