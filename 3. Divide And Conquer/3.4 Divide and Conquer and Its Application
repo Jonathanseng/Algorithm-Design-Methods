@@ -1,0 +1,22 @@
+Divide and conquer is an algorithm design paradigm that breaks a problem into smaller subproblems of the same or related type, until these become simple enough to be solved directly. The solutions to the subproblems are then combined to solve the original problem.
+
+The divide and conquer approach can be used to solve a wide variety of problems, including sorting, searching, and graph problems.
+
+Here are some of the applications of divide and conquer:
+
+* **Sorting:** Merge sort and quicksort are both sorting algorithms that use the divide and conquer approach.
+* **Searching:** Binary search is a search algorithm that uses the divide and conquer approach.
+* **Graph problems:** The transitive closure problem and the maximum flow problem are both graph problems that can be solved using the divide and conquer approach.
+* **Matrix multiplication:** Strassen's algorithm and Karatsuba algorithm are both algorithms for multiplying two matrices that use the divide and conquer approach.
+* **Computational geometry:** The convex hull problem and the closest pair of points problem are both computational geometry problems that can be solved using the divide and conquer approach.
+* **Cryptography:** The RSA cryptosystem is a public-key cryptosystem that uses the divide and conquer approach to break down large numbers into smaller factors.
+
+The divide and conquer approach is a powerful algorithm design paradigm that can be used to solve a wide variety of problems. It is often used to solve problems that are too large to be solved directly.
+
+Here are some real-world examples of divide and conquer:
+
+* **Finding a needle in a haystack:** You can use divide and conquer to find a needle in a haystack by recursively dividing the haystack into smaller and smaller pieces until you find the needle.
+* **Solving a Sudoku puzzle:** You can use divide and conquer to solve a Sudoku puzzle by recursively dividing the puzzle into smaller and smaller subproblems until you solve the entire puzzle.
+* **Finding the shortest path between two points:** You can use divide and conquer to find the shortest path between two points in a graph by recursively dividing the graph into smaller and smaller subproblems until you find the shortest path.
+
+The divide and conquer approach is a powerful tool that can be used to solve a wide variety of problems in a variety of domains.
