@@ -1,0 +1,45 @@
+Graph traversal is the process of visiting each vertex in a graph exactly once. There are two common graph traversal algorithms:
+
+* **Depth-first search (DFS):** DFS visits each vertex in a graph by starting at a vertex and exploring all of its neighbors before moving on to the next vertex.
+* **Breadth-first search (BFS):** BFS visits each vertex in a graph by starting at a vertex and exploring all of its neighbors at the same level before moving on to the next level.
+
+The choice of which algorithm to use depends on the specific problem being solved. For example, DFS is often used for finding paths in graphs, while BFS is often used for finding connected components in graphs.
+
+Here is an example of how DFS works:
+
+```
+1. Start at a vertex.
+2. Visit the vertex.
+3. Mark the vertex as visited.
+4. For each neighbor of the vertex:
+    * If the neighbor has not been visited:
+        * Go to step 2.
+    * Otherwise:
+        * Continue to the next neighbor.
+5. If there are no more neighbors:
+    * Go to the next vertex.
+6. Repeat steps 2-5 until all vertices have been visited.
+```
+
+Here is an example of how BFS works:
+
+```
+1. Start at a vertex.
+2. Add the vertex to a queue.
+3. While the queue is not empty:
+    * Remove the first vertex from the queue.
+    * Visit the vertex.
+    * Mark the vertex as visited.
+    * For each neighbor of the vertex:
+        * If the neighbor has not been visited:
+            * Add the neighbor to the queue.
+    * Continue to the next vertex.
+```
+
+Graph traversal is a fundamental algorithm in computer science. It is used in a wide variety of applications, including:
+
+* **Pathfinding:** Finding a path between two points in a graph.
+* **Topological sorting:** Ordering the vertices in a graph such that for any two vertices, if there is an edge from vertex A to vertex B, then vertex A appears before vertex B in the ordering.
+* **Connectivity:** Finding connected components in a graph.
+* **Minimum spanning tree:** Finding a subset of the edges in a graph that connects all of the vertices and has the minimum possible total weight.
+* **Maximum flow:** Finding the maximum amount of flow that can be sent through a network of pipes.
