@@ -1,0 +1,23 @@
+There are many algorithms that are built under the dynamic programming technique. Here are a few examples:
+
+* **Longest common subsequence (LCS):** This algorithm finds the longest subsequence of two strings that is common to both strings.
+* **Shortest path problem:** This algorithm finds the shortest path between two nodes in a graph.
+* **Knapsack problem:** This algorithm finds the most valuable subset of items that can fit into a knapsack with a limited weight capacity.
+* **Dijkstra's algorithm:** This algorithm finds the shortest path between a source node and all other nodes in a graph.
+* **Bellman-Ford algorithm:** This algorithm finds the shortest paths between all pairs of nodes in a graph.
+
+These are just a few examples of algorithms that can be solved using dynamic programming. There are many other algorithms that can be solved using this technique, and it is a powerful tool for solving optimization problems.
+
+Here are some of the benefits of using dynamic programming:
+
+* **Efficiency:** Dynamic programming can be very efficient for problems that have overlapping subproblems and optimal substructure.
+* **Flexibility:** Dynamic programming can be used to solve a wide variety of problems.
+* **Powerful:** Dynamic programming can be used to solve some very difficult problems.
+
+However, there are also some challenges associated with using dynamic programming:
+
+* **Complexity:** Dynamic programming can be more complex than other programming techniques.
+* **Data structures:** Dynamic programming often requires the use of large data structures, which can be a challenge for some applications.
+* **Memory:** Dynamic programming can require a lot of memory, which can be a challenge for some applications.
+
+Overall, dynamic programming is a powerful technique that can be used to solve a wide variety of problems. However, it is important to be aware of the challenges associated with using this technique before using it in an application.
