@@ -1,0 +1,19 @@
+Here are some examples of algorithms that are built under the brute force method:
+
+* **Finding the largest number in a list of numbers:** This algorithm iterates through the list of numbers, keeping track of the largest number seen so far. The largest number is the last number in the list that is greater than or equal to all the previous numbers.
+* **Solving a Sudoku puzzle:** This algorithm tries all possible combinations of numbers in the puzzle until a solution is found.
+* **Breaking a password:** This algorithm tries all possible combinations of letters and numbers until the correct password is found.
+* **Finding a needle in a haystack:** This algorithm iterates through the haystack, looking for the needle.
+* **Finding the shortest path between two points:** This algorithm tries all possible paths between the two points and returns the shortest path.
+
+These are just a few examples of algorithms that can be built under the brute force method. Brute force algorithms are often simple to understand and implement, but they can be very inefficient for large problems.
+
+Here are some other examples of problems that can be solved using brute-force algorithms:
+
+* **The traveling salesman problem:** This problem asks for the shortest possible route that visits a set of cities exactly once.
+* **The knapsack problem:** This problem asks for the most valuable set of items that can be put into a knapsack of a certain weight.
+* **The bin packing problem:** This problem asks for the best way to pack a set of items into a set of bins.
+
+Brute-force algorithms can be used to solve these problems, but they may not be the most efficient solution. There are many other algorithms that can be used to solve these problems, and they may be more efficient for large problems.
+
+In general, brute-force algorithms should only be used for small problems or as a baseline for comparison with other algorithms.
