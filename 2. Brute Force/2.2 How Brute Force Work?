@@ -1,0 +1,28 @@
+A brute-force algorithm is a simple and straightforward approach to solving a problem by trying all possible solutions. It is often the first approach that comes to mind when trying to solve a problem, and it can be effective for small problems. However, as the size of the problem increases, the number of possible solutions grows exponentially, and brute-force algorithms can become very inefficient.
+
+Here is an example of how a brute-force algorithm might work:
+
+* **Problem:** Find the largest number in a list of numbers.
+* **Brute-force solution:** Iterate through the list of numbers, keeping track of the largest number seen so far. The largest number is the last number in the list that is greater than or equal to all the previous numbers.
+
+This algorithm is simple to understand and implement, but it is not very efficient. For a list of n numbers, the brute-force algorithm must iterate through the list n times. If the list is very large, this can take a long time.
+
+There are many other problems that can be solved using brute-force algorithms. Some examples include:
+
+* **Finding a needle in a haystack:** Iterate through the haystack, looking for the needle.
+* **Solving a Sudoku puzzle:** Try all possible combinations of numbers in the puzzle until a solution is found.
+* **Breaking a password:** Try all possible combinations of letters and numbers until the correct password is found.
+
+Brute-force algorithms are often used as a baseline for comparison with other, more efficient algorithms. If a brute-force algorithm can solve a problem, then it is guaranteed that any other algorithm can also solve the problem. However, brute-force algorithms are often not the best choice for solving large problems.
+
+Here are some of the advantages of brute-force algorithms:
+
+* They are simple to understand and implement.
+* They are guaranteed to find a solution.
+
+Here are some of the disadvantages of brute-force algorithms:
+
+* They can be very inefficient for large problems.
+* They may not be able to find the optimal solution.
+
+In general, brute-force algorithms should only be used for small problems or as a baseline for comparison with other algorithms.
