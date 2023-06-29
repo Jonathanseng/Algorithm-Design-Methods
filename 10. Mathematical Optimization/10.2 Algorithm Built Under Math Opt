@@ -1,0 +1,19 @@
+There are many algorithms that are built under the mathematical optimization. Some of the most common include:
+
+* **Linear programming:** Linear programming is a type of mathematical optimization problem that can be solved using a variety of algorithms, including the simplex algorithm and interior-point methods. Linear programming problems are often used in business and engineering to find the best way to allocate resources.
+* **Integer programming:** Integer programming is a type of mathematical optimization problem that has some or all of the variables constrained to be integers. Integer programming problems are often used in scheduling and planning problems.
+* **Nonlinear programming:** Nonlinear programming is a type of mathematical optimization problem that has an objective function or constraints that are not linear. Nonlinear programming problems are often more difficult to solve than linear programming problems.
+* **Dynamic programming:** Dynamic programming is a technique for solving optimization problems by breaking them down into smaller subproblems and then solving the subproblems recursively. Dynamic programming is often used to solve problems that involve sequences of decisions, such as finding the shortest path between two points.
+* **Genetic algorithms:** Genetic algorithms are a type of heuristic optimization algorithm that mimics the process of natural selection. Genetic algorithms are often used to solve problems that are difficult to solve using traditional optimization methods.
+
+These are just a few of the many algorithms that are built under the mathematical optimization. The choice of algorithm will depend on the specific problem and the desired level of accuracy.
+
+Here are some examples of how algorithms built under mathematical optimization are used in real-world problems:
+
+* **Linear programming:** Linear programming is used by businesses to find the best way to allocate resources, such as production capacity and transportation routes. It is also used by financial institutions to manage risk and to optimize portfolios.
+* **Integer programming:** Integer programming is used by businesses to schedule production, to plan transportation, and to allocate resources. It is also used by telecommunications companies to optimize network capacity and by airlines to schedule flights.
+* **Nonlinear programming:** Nonlinear programming is used by businesses to optimize pricing, to design products, and to control manufacturing processes. It is also used by scientists to model physical systems and to design experiments.
+* **Dynamic programming:** Dynamic programming is used by businesses to find the shortest paths between points, to schedule tasks, and to optimize inventory levels. It is also used by scientists to solve problems in finance, economics, and engineering.
+* **Genetic algorithms:** Genetic algorithms are used by businesses to optimize product design, to find new marketing strategies, and to improve customer service. They are also used by scientists to solve problems in medicine, biology, and computer science.
+
+Algorithms built under mathematical optimization are a powerful tool that can be used to solve a wide variety of real-world problems. They are used in a wide range of fields, including business, engineering, science, and finance. These algorithms are constantly being improved and new ones are being developed all the time. As a result, they are likely to become even more important in the future.
