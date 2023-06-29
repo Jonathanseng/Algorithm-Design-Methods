@@ -1,0 +1,23 @@
+Sure. Graph traversal is the process of visiting every vertex (also known as node) in a graph. There are many different graph traversal patterns, each with its own advantages and disadvantages.
+
+Some of the most common graph traversal patterns include:
+
+* **Depth-first search (DFS):** DFS visits each vertex in a graph by starting at a vertex and recursively visiting all of its unvisited neighbors. DFS is often used to find connected components in a graph or to find the shortest path between two vertices.
+[Image of Depth-first search (DFS)]
+* **Breadth-first search (BFS):** BFS visits each vertex in a graph by starting at a vertex and visiting all of its unvisited neighbors in a first-in, first-out (FIFO) order. BFS is often used to find the shortest path between two vertices or to find all of the vertices that are reachable from a given vertex.
+[Image of Breadth-first search (BFS)]
+* **Iterative deepening DFS (IDDFS):** IDDFS is a variation of DFS that starts with a depth limit of 1 and increases the depth limit by 1 after each iteration. IDDFS is often used to find the shortest path between two vertices in a graph, even if the graph contains cycles.
+[Image of Iterative deepening DFS (IDDFS)]
+* **Topological sorting:** Topological sorting is a process of ordering the vertices in a graph such that if there is an edge from vertex A to vertex B, then vertex A appears before vertex B in the ordering. Topological sorting can be used to find the order in which tasks must be completed in a project or to find the order in which files must be processed in a pipeline.
+[Image of Topological sorting]
+
+The choice of which graph traversal pattern to use depends on the specific problem that you are trying to solve. For example, if you are trying to find the shortest path between two vertices, then you would use BFS or IDDFS. If you are trying to find all of the vertices that are reachable from a given vertex, then you would use BFS. If you are trying to find connected components in a graph, then you would use DFS.
+
+Here are some of the key characteristics of graph traversal patterns:
+
+* **Order:** The order in which the vertices are visited can have a significant impact on the performance of the algorithm. For example, BFS will always find the shortest path between two vertices, but DFS may not.
+* **Completeness:** Some graph traversal patterns are complete, meaning that they will visit every vertex in the graph. Other graph traversal patterns are incomplete, meaning that they may not visit all of the vertices in the graph.
+* **Time complexity:** The time complexity of a graph traversal algorithm depends on the size of the graph and the graph traversal pattern that is used.
+* **Space complexity:** The space complexity of a graph traversal algorithm also depends on the size of the graph and the graph traversal pattern that is used.
+
+Graph traversal patterns are a powerful tool that can be used to solve a wide variety of problems. They are often used in conjunction with other algorithms, such as shortest path algorithms and minimum spanning tree algorithms.
