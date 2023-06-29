@@ -1,0 +1,26 @@
+Sure. Dynamic programming is an algorithmic paradigm that solves a problem by breaking it down into smaller subproblems and using the solutions to the subproblems to solve the original problem. Dynamic programming is often used to solve problems that have overlapping subproblems.
+
+Here are the steps involved in the dynamic programming pattern:
+
+1. **Define the problem.** The first step is to define the problem that you want to solve. This includes identifying the input and output of the problem, as well as the constraints that the solution must satisfy.
+2. **Identify the subproblems.** The next step is to identify the subproblems that the problem can be broken down into. These subproblems should be as small as possible, while still being large enough to be solved independently.
+3. **Calculate the solutions to the subproblems.** The next step is to calculate the solutions to the subproblems. This can be done recursively, using the solutions to smaller subproblems to calculate the solutions to larger subproblems.
+4. **Store the solutions to the subproblems.** The solutions to the subproblems can be stored in a table or array. This allows us to avoid recalculating the solutions to subproblems that have already been solved.
+5. **Construct the solution to the original problem.** The final step is to construct the solution to the original problem by using the solutions to the subproblems. This can be done by combining the solutions to the subproblems in a way that satisfies the constraints of the original problem.
+
+Here are some examples of dynamic programming problems:
+
+* **The knapsack problem:** The knapsack problem is a classic dynamic programming problem. The problem is to find the most valuable subset of items that can fit into a knapsack with a limited capacity.
+* **The Fibonacci sequence:** The Fibonacci sequence is a well-known sequence of numbers where each number is the sum of the two previous numbers. The Fibonacci sequence can be solved using dynamic programming by breaking the problem down into smaller subproblems.
+* **The longest common subsequence problem:** The longest common subsequence problem is another classic dynamic programming problem. The problem is to find the longest sequence of characters that is common to two strings.
+* **The edit distance problem:** The edit distance problem is a problem in computer science that calculates the minimum number of edits (insertions, deletions, and substitutions) required to change one string into another.
+
+Dynamic programming is a powerful algorithmic paradigm that can be used to solve a wide variety of problems. It is often used in conjunction with other algorithmic paradigms, such as divide and conquer and greedy algorithms.
+
+Here are some of the key characteristics of dynamic programming problems:
+
+* **Overlapping subproblems:** Dynamic programming problems often have overlapping subproblems. This means that the same subproblem may be solved multiple times during the course of the algorithm.
+* **Memoization:** Memoization is a technique that can be used to avoid recalculating the solutions to subproblems that have already been solved. This can significantly improve the performance of dynamic programming algorithms.
+* **Tabulation:** Tabulation is another technique that can be used to solve dynamic programming problems. This involves storing the solutions to all possible subproblems in a table. The solution to the original problem can then be found by looking up the appropriate value in the table.
+
+Dynamic programming is a powerful technique that can be used to solve a wide variety of problems. However, it is important to note that not all problems can be solved using dynamic programming. It is important to carefully analyze the problem to determine if dynamic programming is a feasible solution.
