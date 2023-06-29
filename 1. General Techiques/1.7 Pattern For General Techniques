@@ -1,0 +1,9 @@
+Sure, here are some general techniques for algorithm design:
+
+* **Divide and conquer:** This technique breaks down a problem into smaller subproblems, and then solves the subproblems recursively. The solution to the original problem is then obtained by combining the solutions to the subproblems.
+* **Dynamic programming:** This technique stores the results of subproblems so that they can be reused when solving larger subproblems. This can be helpful for problems where the same subproblems are solved repeatedly.
+* **Greedy algorithm:** This technique makes a locally optimal choice at each step in order to obtain a globally optimal solution. This can be helpful for problems where it is difficult to find an optimal solution, but it is relatively easy to find a locally optimal solution.
+* **Backtracking:** This technique explores all possible solutions to a problem, and then returns the first solution that it finds that satisfies the problem's constraints. This can be helpful for problems where it is difficult to find an optimal solution, but it is relatively easy to find a solution that satisfies the problem's constraints.
+* **Randomized algorithm:** This technique uses randomness to find a solution to a problem. This can be helpful for problems where it is difficult to find an optimal solution, but it is relatively easy to find a solution that is good enough.
+
+These are just a few of the many general techniques that can be used for algorithm design. The best technique to use for a particular problem will depend on the specific characteristics of the problem.
