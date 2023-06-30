@@ -1,0 +1,15 @@
+There are many different algorithms that can be built under the local search framework. Some of the most common algorithms include:
+
+* **Hill climbing:** Hill climbing is a simple local search algorithm that starts with an initial solution and then iteratively makes changes to the solution that improve the objective function. The changes are made in the direction that leads to the greatest improvement in the objective function. If no improvement can be found, the algorithm stops.
+* **Simulated annealing:** Simulated annealing is a local search algorithm that allows the algorithm to make changes to the solution that temporarily make the objective function worse. This is done in the hope that the algorithm will eventually find a better solution. The probability of making a change that worsens the objective function decreases as the algorithm progresses.
+* **Tabu search:** Tabu search is a local search algorithm that maintains a list of solutions that have been recently visited. The algorithm is not allowed to make changes to the solution that would lead to a solution that has already been visited. This helps to prevent the algorithm from getting stuck in local minima.
+* **Genetic algorithms:** Genetic algorithms are a type of local search algorithm that uses a population of solutions to search for the best solution. The solutions in the population are iteratively modified using operations such as crossover and mutation. The best solutions in the population are then selected to form the next generation of solutions.
+
+These are just a few of the many different algorithms that can be built under the local search framework. The choice of algorithm will depend on the specific problem being solved.
+
+Here are some additional considerations when choosing a local search algorithm:
+
+* The complexity of the problem: The complexity of the problem will affect the choice of local search algorithm. A simple problem may be solved using a simple local search algorithm, such as hill climbing. A more complex problem may require a more sophisticated local search algorithm, such as simulated annealing or tabu search.
+* The size of the search space: The size of the search space will also affect the choice of local search algorithm. A large search space may require a local search algorithm that can efficiently explore the search space, such as simulated annealing or tabu search.
+* The quality of the solution required: The quality of the solution required will also affect the choice of local search algorithm. If a high-quality solution is required, then a local search algorithm that is more likely to find a good solution, such as simulated annealing or tabu search, may be used.
+* The time constraints: If the algorithm needs to find a solution within a certain amount of time, then a local search algorithm that can quickly explore the search space, such as hill climbing, may be used.
