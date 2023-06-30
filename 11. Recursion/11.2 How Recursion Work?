@@ -1,0 +1,23 @@
+Recursion is a programming technique where a function calls itself. This can be used to solve problems that can be broken down into smaller subproblems. For example, the factorial function can be defined recursively as follows:
+
+```
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+```
+
+This function works by first checking if the input number (n) is equal to 0. If it is, then the function returns 1. Otherwise, the function calls itself with the input number minus 1. The function continues to call itself until the input number is 0, at which point the function returns 1.
+
+The key to recursion is that the function must eventually reach a point where it stops calling itself. This is called the base case. In the case of the factorial function, the base case is when the input number is 0. Once the function reaches the base case, it returns a value and the recursion process stops.
+
+Recursion can be a powerful tool for solving problems. However, it is important to use it carefully. Recursion can be difficult to understand and debug, and it can also lead to stack overflow errors if the function calls itself too many times.
+
+Here are some other examples of recursive functions:
+
+* The Fibonacci sequence
+* The Tower of Hanoi puzzle
+* Binary search
+
+Recursive functions can be used to solve a wide variety of problems. However, it is important to use them carefully and to understand the limitations of recursion.
