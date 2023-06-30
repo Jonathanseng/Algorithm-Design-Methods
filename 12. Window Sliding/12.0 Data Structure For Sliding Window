@@ -1,0 +1,10 @@
+The data structure used for sliding window depends on the specific problem being solved. However, some common data structures used for sliding window include:
+
+* **Array:** An array is a simple data structure that can be used to store a fixed-size window of data. This is a good choice for problems where the window size is known in advance.
+* **Linked list:** A linked list is a dynamic data structure that can be used to store a sliding window of data of any size. This is a good choice for problems where the window size is not known in advance.
+* **Deque:** A deque is a double-ended queue that can be used to store a sliding window of data that can be accessed from both the front and the back. This is a good choice for problems where the window needs to be updated frequently.
+* **Hash table:** A hash table can be used to store a sliding window of data where the elements are indexed by their values. This is a good choice for problems where the elements in the window need to be accessed quickly.
+
+In addition to these data structures, there are also a number of specialized data structures that can be used for sliding window problems. For example, the **Fenwick tree** is a data structure that can be used to efficiently calculate the sum of a sliding window of elements in an array.
+
+The choice of data structure for sliding window depends on a number of factors, including the specific problem being solved, the size of the window, and the frequency with which the window needs to be updated.
