@@ -1,0 +1,29 @@
+A recursive data structure is a data structure that is partially composed of smaller or simpler instances of the same data structure. For example, linked lists and binary trees can be viewed as recursive data structures.
+
+A linked list is a recursive data structure because a linked list can be defined as either:
+
+* An empty list
+* A node followed by a list
+
+A binary tree is also a recursive data structure because a binary tree can be defined as either:
+
+* An empty tree
+* A node with two subtrees, one its left child and the other its right child
+
+Recursive data structures are often used in recursive algorithms, which are algorithms that call themselves. Recursive algorithms are often used to solve problems that can be broken down into smaller subproblems. For example, a recursive algorithm can be used to find the factorial of a number by recursively calling itself to find the factorials of smaller numbers.
+
+Here are some examples of recursive data structures:
+
+* Linked lists
+* Binary trees
+* Recursively defined sets
+* Recursively defined graphs
+
+Here are some examples of recursive algorithms:
+
+* Fibonacci sequence
+* Tower of Hanoi
+* Factorial
+* Binary search
+
+Recursive data structures and algorithms can be powerful tools for solving problems. However, they can also be more difficult to understand and debug than non-recursive solutions.
