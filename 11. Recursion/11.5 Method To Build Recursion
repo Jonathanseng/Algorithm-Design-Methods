@@ -1,0 +1,32 @@
+There are two main methods to build recursion:
+
+1. **Divide and conquer:** This method breaks the problem down into smaller subproblems, and then solves each subproblem recursively. The function continues to call itself until the subproblems are small enough to be solved directly.
+2. **Self-reference:** This method uses a function to call itself directly. The function continues to call itself until it reaches a base case, which is a case that the function can solve without calling itself.
+
+Here is an example of a recursive function that uses the divide and conquer method to solve the factorial problem:
+
+```python
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+```
+
+This function works by first checking if the input number (n) is equal to 0. If it is, then the function returns 1. Otherwise, the function calls itself with the input number minus 1. The function continues to call itself until the input number is 0, at which point the function returns 1.
+
+Here is an example of a recursive function that uses the self-reference method to solve the Fibonacci sequence problem:
+
+```python
+def fibonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+```
+
+This function works by first checking if the input number (n) is equal to 0 or 1. If it is, then the function returns the number. Otherwise, the function calls itself twice, once with the input number minus 1 and once with the input number minus 2. The function then returns the sum of the two results.
+
+These are just two examples of how recursion can be used to solve problems. There are many other ways to build recursion, and the best method to use will depend on the specific problem that you are trying to solve.
