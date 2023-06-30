@@ -1,0 +1,53 @@
+There are many algorithms that can be built under recursion. Here are a few examples:
+
+* **Factorial:** The factorial of a number is the product of all the positive numbers less than or equal to that number. For example, the factorial of 5 is 120, because 120 is equal to 1 * 2 * 3 * 4 * 5. The factorial function can be defined recursively as follows:
+
+```
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+```
+
+* **Fibonacci sequence:** The Fibonacci sequence is a sequence of numbers where each number is the sum of the two numbers before it. The sequence starts with 0 and 1, and then continues with 1, 2, 3, 5, 8, 13, and so on. The Fibonacci sequence can be defined recursively as follows:
+
+```
+def fibonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+```
+
+* **Tower of Hanoi:** The Tower of Hanoi puzzle is a puzzle where you have three pegs and a number of disks. The disks are all different sizes, and they must be moved from one peg to another peg, one disk at a time. The disks must never be placed on top of a smaller disk. The Tower of Hanoi puzzle can be solved recursively as follows:
+
+```
+def tower_of_hanoi(n, source, destination, auxiliary):
+    if n == 0:
+        return
+    else:
+        tower_of_hanoi(n - 1, source, auxiliary, destination)
+        move_disk(source, destination)
+        tower_of_hanoi(n - 1, auxiliary, destination, source)
+```
+
+* **Binary search:** Binary search is a search algorithm that can be used to find a specific value in a sorted array. The algorithm works by repeatedly dividing the array in half and searching the smaller half for the value. The algorithm stops when the value is found or when the array is empty. Binary search can be defined recursively as follows:
+
+```
+def binary_search(array, value):
+    if len(array) == 0:
+        return False
+    else:
+        middle_index = len(array) // 2
+        if array[middle_index] == value:
+            return True
+        elif array[middle_index] < value:
+            return binary_search(array[middle_index + 1:], value)
+        else:
+            return binary_search(array[:middle_index], value)
+```
+
+These are just a few examples of algorithms that can be built under recursion. Recursion can be a powerful tool for solving problems, but it is important to use it carefully and to understand its limitations.
