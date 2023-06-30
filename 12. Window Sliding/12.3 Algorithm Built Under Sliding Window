@@ -1,0 +1,19 @@
+There are many algorithms that can be built under the window sliding paradigm. Here are a few examples:
+
+* **Maximum sliding window:** This algorithm finds the maximum value in a sliding window of elements. The algorithm maintains a list of the maximum values seen so far, and updates the list as the window slides over the elements.
+* **Minimum sliding window:** This algorithm finds the minimum value in a sliding window of elements. The algorithm maintains a list of the minimum values seen so far, and updates the list as the window slides over the elements.
+* **Average sliding window:** This algorithm finds the average value in a sliding window of elements. The algorithm maintains a running sum of the values seen so far, and divides the sum by the number of elements in the window.
+* **Sum sliding window:** This algorithm finds the sum of the values in a sliding window of elements. The algorithm maintains a running sum of the values seen so far, and updates the sum as the window slides over the elements.
+* **Count sliding window:** This algorithm finds the number of elements in a sliding window that satisfy a certain condition. The algorithm maintains a counter of the number of elements that satisfy the condition, and updates the counter as the window slides over the elements.
+
+These are just a few examples of algorithms that can be built under the window sliding paradigm. The specific algorithm that is used depends on the specific problem that is being solved.
+
+Here are some additional details about how these algorithms work:
+
+* The maximum sliding window algorithm maintains a list of the maximum values seen so far. The list is initialized to an empty list. As the window slides over the elements, the algorithm checks if the current element is greater than the maximum value in the list. If it is, then the current element replaces the maximum value in the list.
+* The minimum sliding window algorithm maintains a list of the minimum values seen so far. The list is initialized to an empty list. As the window slides over the elements, the algorithm checks if the current element is less than the minimum value in the list. If it is, then the current element replaces the minimum value in the list.
+* The average sliding window algorithm maintains a running sum of the values seen so far. The running sum is initialized to 0. As the window slides over the elements, the algorithm adds the current element to the running sum. The average value is then calculated by dividing the running sum by the number of elements in the window.
+* The sum sliding window algorithm maintains a running sum of the values seen so far. The running sum is initialized to 0. As the window slides over the elements, the algorithm adds the current element to the running sum. The sum of the values in the window is then equal to the running sum.
+* The count sliding window algorithm maintains a counter of the number of elements that satisfy a certain condition. The counter is initialized to 0. As the window slides over the elements, the algorithm checks if the current element satisfies the condition. If it does, then the counter is incremented. The number of elements that satisfy the condition is then equal to the counter.
+
+These algorithms are all relatively simple to implement, and they can be used to solve a variety of problems.
