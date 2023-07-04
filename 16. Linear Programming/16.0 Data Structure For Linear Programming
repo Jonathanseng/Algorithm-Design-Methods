@@ -1,0 +1,17 @@
+Linear programming is a mathematical problem that can be solved using a variety of data structures. Some of the most common data structures used for linear programming include:
+
+* **Arrays:** Arrays are a simple and efficient data structure for storing linear data. They can be used to store the coefficients of the objective function, the constraints, and the variables.
+* **Linked lists:** Linked lists are a more flexible data structure than arrays. They can be used to store the constraints and variables in a more natural way, and they can also be used to represent the solution to the linear programming problem.
+* **Matrices:** Matrices are a natural way to represent the coefficients of the objective function and the constraints. They can also be used to store the solution to the linear programming problem.
+* **Dictionaries:** Dictionaries can be used to store the variables and their values in the solution to the linear programming problem.
+
+The choice of data structure for linear programming depends on the specific problem and the programming language being used. In general, arrays are a good choice for simple problems, while linked lists and matrices are a better choice for more complex problems. Dictionaries can be used to store the solution to the linear programming problem in any programming language.
+
+Here are some examples of how linear programming can be used in data science:
+
+* **In portfolio optimization, linear programming can be used to find the optimal mix of assets to maximize return while minimizing risk.**
+* **In supply chain management, linear programming can be used to find the most efficient way to deliver products to customers.**
+* **In production planning, linear programming can be used to find the most efficient way to produce a given quantity of products.**
+* **In transportation planning, linear programming can be used to find the most efficient way to move goods from one location to another.**
+
+Linear programming is a powerful tool that can be used to solve a wide variety of problems in data science. The data structures used for linear programming depend on the specific problem and the programming language being used.
