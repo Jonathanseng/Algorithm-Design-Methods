@@ -1,0 +1,41 @@
+Iteration is a process of repeating steps until a specific condition is met. In programming, iteration is often used to process a collection of data, such as a list of numbers or a dictionary of objects.
+
+There are two main types of iteration:
+
+* **For loop:** A for loop iterates through a collection of data, one item at a time. The for loop syntax is as follows:
+
+```
+for item in collection:
+    # Do something with item
+```
+
+* **While loop:** A while loop iterates as long as a specific condition is met. The while loop syntax is as follows:
+
+```
+while condition:
+    # Do something
+```
+
+In the example you provided, the data structure for the iteration is a list of dictionaries. We can iterate through this list using a for loop:
+
+```python
+for time_zone in time_zones:
+    print(time_zone["name"])
+```
+
+This code will print the name of each time zone in the list.
+
+The for loop will first iterate to the first item in the list, which is the dictionary with the key "name" set to "កម្ពុជា". The code will then print the value of the "name" key, which is the string "កម្ពុជា". The for loop will then iterate to the next item in the list, and so on, until it has iterated through all of the items in the list.
+
+The while loop can also be used to iterate through a list of data. For example, the following code will print the name of each time zone in the list until it finds a time zone with an offset of +00:
+
+```python
+time_zone = None
+while time_zone is None:
+    for time_zone in time_zones:
+        if time_zone["offset"] == "+00":
+            break
+    print(time_zone["name"])
+```
+
+This code will first iterate to the first item in the list, which is the dictionary with the key "name" set to "កម្ពុជា". The code will then check the value of the "offset" key. If the value is "+00", the code will break out of the loop and print the name of the time zone. If the value is not "+00", the code will iterate to the next item in the list and check the value of the "offset" key again. The code will continue to iterate through the list until it finds a time zone with an offset of +00, or until it has iterated through all of the items in the list.
