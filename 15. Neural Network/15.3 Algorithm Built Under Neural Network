@@ -1,0 +1,19 @@
+There are many different algorithms that can be built under neural networks. Some of the most common algorithms include:
+
+* **Gradient descent:** This is the most common algorithm used to train neural networks. It works by iteratively adjusting the weights of the network in the direction that minimizes the error between the network's predictions and the actual outputs.
+* **Backpropagation:** This is a technique used to calculate the gradient of the loss function with respect to the weights of the network. This gradient is then used by gradient descent to update the weights of the network.
+* **Convolutional neural networks (CNNs):** CNNs are a type of neural network that is specifically designed for image processing tasks. They work by applying convolution operations to the input images, which helps them to identify patterns in the images.
+* **Recurrent neural networks (RNNs):** RNNs are a type of neural network that is specifically designed for sequence modeling tasks. They work by maintaining an internal state that allows them to remember information from previous inputs.
+* **Deep reinforcement learning:** This is a type of machine learning algorithm that combines neural networks with reinforcement learning. It works by allowing the neural network to learn how to behave in an environment by trial and error.
+
+These are just a few of the many different algorithms that can be built under neural networks. The choice of algorithm depends on the specific task that the neural network is being trained to perform.
+
+Here are some examples of how neural networks are used in different applications:
+
+* **Image recognition:** Neural networks are used to identify objects in images. For example, a neural network can be used to identify faces, cars, or animals in a photograph.
+* **Natural language processing:** Neural networks are used to understand and process human language. For example, a neural network can be used to translate text from one language to another, or to summarize a text document.
+* **Speech recognition:** Neural networks are used to transcribe spoken language into text. For example, a neural network can be used to transcribe a conversation between two people, or to generate closed captions for a video.
+* **Medical diagnosis:** Neural networks are used to diagnose diseases. For example, a neural network can be used to analyze medical images, such as X-rays or MRI scans, to identify potential problems.
+* **Financial trading:** Neural networks are used to make financial trading decisions. For example, a neural network can be used to predict stock prices, or to identify investment opportunities.
+
+These are just a few examples of how neural networks are used in different applications. As neural networks continue to develop, they are likely to be used in even more applications in the future.
