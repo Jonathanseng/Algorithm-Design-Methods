@@ -1,0 +1,28 @@
+An algorithm built under iteration is an algorithm that repeats a set of steps until a specific condition is met. This type of algorithm is often used to process a collection of data, such as a list of numbers or a dictionary of objects.
+
+One example of an algorithm built under iteration is the following:
+
+```python
+def find_max_value(numbers):
+    max_value = numbers[0]
+    for number in numbers:
+        if number > max_value:
+            max_value = number
+    return max_value
+```
+
+This algorithm iterates through the list of numbers, one number at a time. For each number, the algorithm checks if the number is greater than the current maximum value. If it is, the algorithm updates the maximum value to the new number. The algorithm continues to iterate through the list until it has reached the end of the list. At this point, the algorithm returns the maximum value.
+
+Another example of an algorithm built under iteration is the following:
+
+```python
+def reverse_string(string):
+    reversed_string = ""
+    for character in string:
+        reversed_string = character + reversed_string
+    return reversed_string
+```
+
+This algorithm iterates through the string, one character at a time. For each character, the algorithm adds the character to the end of the reversed_string variable. The algorithm continues to iterate through the string until it has reached the end of the string. At this point, the algorithm returns the reversed_string variable.
+
+Algorithms built under iteration are often used to solve problems that involve processing a collection of data. These algorithms can be very efficient, as they can process large amounts of data quickly. However, they can also be more complex than algorithms that do not use iteration.
