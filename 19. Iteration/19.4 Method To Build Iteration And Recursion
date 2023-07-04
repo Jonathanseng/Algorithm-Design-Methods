@@ -1,0 +1,67 @@
+Iteration and recursion are two different methods for solving problems. Iteration is a process of repeating steps until a specific condition is met. Recursion is a process of calling a function within itself.
+
+Here are the steps on how to build iteration and recursion:
+
+**Iteration**
+
+1. Identify the problem that you want to solve.
+2. Break the problem down into smaller steps.
+3. Write a loop that repeats the steps until the problem is solved.
+4. Test the code to make sure that it works.
+
+**Recursion**
+
+1. Identify the problem that you want to solve.
+2. Break the problem down into smaller problems of the same type.
+3. Write a function that solves the smaller problems.
+4. The function should call itself to solve the smaller problems.
+5. Test the code to make sure that it works.
+
+Here are some examples of iteration and recursion:
+
+**Iteration**
+
+* Finding the maximum value in a list of numbers:
+
+```python
+def find_max_value(numbers):
+    max_value = numbers[0]
+    for number in numbers:
+        if number > max_value:
+            max_value = number
+    return max_value
+```
+
+* Reversing a string:
+
+```python
+def reverse_string(string):
+    reversed_string = ""
+    for character in string:
+        reversed_string = character + reversed_string
+    return reversed_string
+```
+
+**Recursion**
+
+* Factorial of a number:
+
+```python
+def factorial(number):
+    if number == 0:
+        return 1
+    else:
+        return number * factorial(number - 1)
+```
+
+* Fibonacci sequence:
+
+```python
+def fibonacci(number):
+    if number == 0 or number == 1:
+        return number
+    else:
+        return fibonacci(number - 1) + fibonacci(number - 2)
+```
+
+Iteration and recursion are both powerful tools that can be used to solve a wide variety of problems. However, they are not always the best choice. Iteration is generally faster than recursion, but it can be more difficult to write. Recursion is often easier to write, but it can be slower and more space-consuming. The best choice of method will depend on the specific problem that you are trying to solve.
