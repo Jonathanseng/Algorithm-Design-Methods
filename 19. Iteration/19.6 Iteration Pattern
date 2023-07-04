@@ -1,0 +1,43 @@
+The iterator pattern is a design pattern that decouples the algorithm from the data structure. This allows the algorithm to be used with different data structures without having to be changed.
+
+The iterator pattern consists of two main parts:
+
+* **The iterator:** The iterator is an object that provides a way to traverse the elements of a data structure. The iterator does not need to know the specific implementation of the data structure.
+* **The container:** The container is the object that contains the data. The container provides the iterator with a way to access the elements of the data structure.
+
+The iterator pattern works by the iterator requesting the next element from the container. The container then returns the next element to the iterator. The iterator can then continue to request the next element until it has reached the end of the data structure.
+
+The iterator pattern is a powerful tool that can be used to iterate through a wide variety of data structures. It is often used in conjunction with other design patterns, such as the composite pattern and the factory pattern.
+
+Here is an example of the iterator pattern in Python:
+
+```python
+class Iterator:
+    def __init__(self, container):
+        self.container = container
+        self.current_index = 0
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if self.current_index < len(self.container):
+            element = self.container[self.current_index]
+            self.current_index += 1
+            return element
+        else:
+            raise StopIteration
+
+class Container:
+    def __init__(self, elements):
+        self.elements = elements
+
+    def __iter__(self):
+        return Iterator(self)
+```
+
+This code defines two classes: `Iterator` and `Container`. The `Iterator` class implements the iterator pattern. The `Container` class implements a data structure that can be iterated through using the `Iterator` class.
+
+To use the iterator pattern, you would first create an instance of the `Container` class. You would then create an instance of the `Iterator` class and pass the `Container` instance to the constructor. You could then use the `next()` method of the `Iterator` class to iterate through the elements of the `Container` class.
+
+The iterator pattern is a powerful tool that can be used to iterate through a wide variety of data structures. It is often used in conjunction with other design patterns, such as the composite pattern and the factory pattern.
