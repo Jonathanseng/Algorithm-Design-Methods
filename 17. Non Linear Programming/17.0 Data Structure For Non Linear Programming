@@ -1,0 +1,12 @@
+Non-linear programming (NLP) is a type of optimization problem in which the objective function and/or the constraints are nonlinear. NLP problems can be very difficult to solve, and the choice of data structure can have a significant impact on the efficiency of the solution process.
+
+Some of the most common data structures used for NLP problems include:
+
+* **Trees:** Trees are a natural choice for representing NLP problems with a hierarchical structure, such as decision trees and optimization trees. Trees can be used to store the objective function, the constraints, and the solution space.
+* **Graphs:** Graphs are a general-purpose data structure that can be used to represent any type of relationship between objects. Graphs can be used to represent the relationships between the variables in an NLP problem, the feasible solutions, and the optimal solution.
+* **Hash tables:** Hash tables are a data structure that can be used to quickly look up data items by their key. Hash tables can be used to store the objective function, the constraints, and the solution space in a way that makes it easy to find the relevant data items.
+* **SparseMatrixs:** SparseMatrixs are a data structure that is used to represent matrices with a large number of zeros. SparseMatrixs can be used to represent the objective function, the constraints, and the solution space in a way that saves memory.
+
+The choice of data structure for an NLP problem will depend on the specific characteristics of the problem. For example, if the problem has a hierarchical structure, then a tree data structure may be a good choice. If the problem has a large number of variables, then a hash table or sparse matrix may be a better choice.
+
+In addition to the data structure, the choice of algorithm for solving the NLP problem will also have a significant impact on the efficiency of the solution process. There are a variety of algorithms available for solving NLP problems, and the best algorithm for a particular problem will depend on the characteristics of the problem and the available computational resources.
