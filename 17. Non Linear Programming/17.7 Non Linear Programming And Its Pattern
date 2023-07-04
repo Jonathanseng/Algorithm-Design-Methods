@@ -1,0 +1,12 @@
+Nonlinear programming (NLP) is a type of optimization problem in which the objective function and/or the constraints are nonlinear. NLP problems can be very difficult to solve, but they are also very common in many fields, such as engineering, economics, finance, chemistry, and machine learning.
+
+There are many different patterns that can be found in NLP problems. Some common patterns include:
+
+* **Convex problems:** Convex problems are NLP problems in which the objective function and the constraints are all convex functions. Convex problems have a number of desirable properties, such as the fact that they always have a unique optimal solution.
+* **Nonconvex problems:** Nonconvex problems are NLP problems in which the objective function or one of the constraints is not convex. Nonconvex problems can be much more difficult to solve than convex problems.
+* **Discretized problems:** Discretized problems are NLP problems in which the variables are restricted to take on a finite number of values. Discretized problems can often be solved more efficiently than continuous problems.
+* **Mixed-integer problems:** Mixed-integer problems are NLP problems in which some of the variables are restricted to be integers. Mixed-integer problems can be very difficult to solve, but they can also be very important in real-world applications.
+
+The pattern of an NLP problem can have a significant impact on the choice of algorithm for solving the problem. For example, convex problems can often be solved more efficiently than nonconvex problems. Discretized problems can often be solved more efficiently than continuous problems. Mixed-integer problems can be very difficult to solve, but there are a number of specialized algorithms that can be used to solve them.
+
+If you are facing an NLP problem, it is important to understand the pattern of the problem in order to choose the best algorithm for solving the problem. There are a number of resources available online and in libraries that can help you to understand the patterns of NLP problems.
