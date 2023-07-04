@@ -1,0 +1,20 @@
+Integer programming (IP) is a type of optimization problem in which the variables are restricted to take on integer values. IP problems can be very difficult to solve, but they are also very common in many fields, such as scheduling, routing, and investment.
+
+There are many different patterns that can be found in IP problems. Some common patterns include:
+
+* **Zero-one integer programming:** Zero-one integer programming is a type of IP problem in which the variables are restricted to take on the values 0 or 1. Zero-one IP problems are often used to model problems with binary decisions, such as whether to include a certain item in a product or whether to open a certain factory.
+* **Mixed-integer programming:** Mixed-integer programming is a type of IP problem in which some of the variables are restricted to be integers and some of the variables are restricted to be continuous. Mixed-integer programming problems can be more difficult to solve than zero-one IP problems, but they can also be more realistic.
+* **Quadratic integer programming:** Quadratic integer programming is a type of IP problem in which the objective function and/or the constraints are quadratic functions. Quadratic integer programming problems can be very difficult to solve, but they can also be very important in real-world applications.
+* **Nonlinear integer programming:** Nonlinear integer programming is a type of IP problem in which the objective function and/or the constraints are nonlinear functions. Nonlinear integer programming problems can be even more difficult to solve than quadratic integer programming problems.
+
+The pattern of an IP problem can have a significant impact on the choice of algorithm for solving the problem. For example, zero-one IP problems can often be solved using specialized algorithms, such as branch-and-bound. Mixed-integer programming problems can often be solved using general-purpose IP solvers, such as CPLEX or Gurobi. Quadratic integer programming problems can often be solved using specialized algorithms, such as interior point methods. Nonlinear integer programming problems can be very difficult to solve, and there are no general-purpose algorithms that can solve them efficiently.
+
+If you are facing an IP problem, it is important to understand the pattern of the problem in order to choose the best algorithm for solving the problem. There are a number of resources available online and in libraries that can help you to understand the patterns of IP problems.
+
+Here are some additional examples of integer programming problems:
+
+* **Scheduling:** Scheduling problems involve finding a schedule for a set of tasks that minimizes the overall cost or time. Scheduling problems can often be modeled as integer programming problems.
+* **Routing:** Routing problems involve finding the shortest path between two points in a network. Routing problems can often be modeled as integer programming problems.
+* **Investment:** Investment problems involve finding the optimal mix of assets in a portfolio to maximize return or minimize risk. Investment problems can often be modeled as integer programming problems.
+
+As you can see, integer programming problems can be used to solve a wide variety of problems. If you are facing a problem that can be modeled as an integer programming problem, then integer programming may be the right tool for you.
