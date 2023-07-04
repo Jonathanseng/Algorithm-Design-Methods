@@ -1,0 +1,19 @@
+There are many algorithms built under linear programming. Some of the most common algorithms include:
+
+* **Simplex method:** The simplex method is the most well-known algorithm for linear programming. It works by starting with a feasible solution and then iteratively improving the solution until it reaches an optimal solution.
+* **Dantzig-Wolfe decomposition:** Dantzig-Wolfe decomposition is a technique for solving linear programming problems that have a special structure. It works by breaking the problem down into smaller problems that can be solved more easily.
+* **Interior point methods:** Interior point methods are a newer class of algorithms for linear programming. They work by working with the interior of the feasible region, rather than the boundary. This can make them more efficient for large problems.
+* **Branch and bound:** Branch and bound is a general-purpose algorithm for solving optimization problems. It works by exploring the solution space in a systematic way, and pruning out infeasible solutions.
+* **Genetic algorithms:** Genetic algorithms are a heuristic algorithm for solving optimization problems. They work by simulating the process of natural selection.
+
+The choice of algorithm depends on the specific problem and the computational resources available. The simplex method is a good choice for small problems, while interior point methods and branch and bound are better choices for large problems. Genetic algorithms are a good choice for problems that are difficult to solve with other methods.
+
+Here are some examples of real-world problems that can be solved using linear programming algorithms:
+
+* **Production planning:** Linear programming algorithms can be used to find the most efficient way to produce a given quantity of products.
+* **Transportation planning:** Linear programming algorithms can be used to find the most efficient way to move goods from one location to another.
+* **Portfolio optimization:** Linear programming algorithms can be used to find the optimal mix of assets to maximize return while minimizing risk.
+* **Supply chain management:** Linear programming algorithms can be used to find the most efficient way to deliver products to customers.
+* **Facility location:** Linear programming algorithms can be used to find the best locations for new facilities.
+
+Linear programming algorithms are a powerful tool that can be used to solve a wide variety of problems. They are used in a wide range of industries, including manufacturing, transportation, and finance.
