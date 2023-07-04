@@ -1,0 +1,16 @@
+The data structure of a neural network is composed of individual elements known as "neurons". Neurons are grouped in layers and they connect to other neurons from other layers.
+
+The most basic neural network structure is the feedforward neural network. It consists of an input layer, one or more hidden layers, and an output layer. Information flows only in one direction, from the input layer to the output layer.
+
+Each neuron in a neural network has a number of inputs and outputs. The inputs are the values of the neurons in the previous layer, and the outputs are the values of the neurons in the next layer. The outputs of a neuron are calculated using a function called an activation function. The activation function determines how the output of a neuron is influenced by its inputs.
+
+The weights of a neural network are the values that determine how the outputs of one neuron are connected to the inputs of another neuron. The weights are adjusted during the training process of the neural network. The goal of training is to find the weights that minimize the error between the predicted outputs of the neural network and the actual outputs.
+
+Here are some of the common data structures used in neural networks:
+
+* **Matrix:** A matrix is a rectangular array of numbers. It is used to store the weights of a neural network.
+* **Vector:** A vector is a one-dimensional array of numbers. It is used to store the inputs and outputs of a neural network.
+* **List:** A list is a collection of ordered elements. It is used to store the neurons in a neural network.
+* **Dictionary:** A dictionary is a collection of key-value pairs. It is used to store the weights and biases of a neural network.
+
+The choice of data structure depends on the specific neural network architecture and the application. For example, a matrix is a good choice for storing the weights of a neural network with a large number of neurons. A vector is a good choice for storing the inputs and outputs of a neural network with a small number of neurons. A list is a good choice for storing the neurons in a neural network with a complex structure. A dictionary is a good choice for storing the weights and biases of a neural network with a large number of parameters.
